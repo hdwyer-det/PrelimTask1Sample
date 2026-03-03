@@ -4,13 +4,13 @@ print("Running automated unit test using a harness for the Classify Triangles su
 print("This subroutine is to accept a list of three sides that are positive integers in ascending order")
 
 # Test 1
-# Impossible: two short sides are equal to longest
-print("\nTest 1: Impossible: two short sides are equal to longest. 3, 3, 6")
+# Impossible: sum of two short sides is equal to longest
+print("\nTest 1: Impossible: sum of two short sides is equal to longest. 3, 3, 6")
 main.classifyTriangle([3, 3, 6])
 
 # Test 2
-# Impossible: two short sides are shorter than longest
-print("\nTest 2: Impossible: two short sides are equal to longest. 2, 3, 6")
+# Impossible: sum of two short sides is shorter to longest
+print("\nTest 2: Impossible: sum of two short sides is shorter to longest. 2, 3, 6")
 main.classifyTriangle([2, 3, 6])
 
 # Test 3
